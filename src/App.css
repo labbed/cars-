@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: gainsboro;
 }
 
 .App-logo {
@@ -35,4 +36,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+.nav {
+  display: flex;
+  gap: 25px;
+}
+.nav .png {
+  width: 35px;
+  height: auto;
+}
+.lodding {
+  width: auto;
+  text-align: center;
+  
+
 }
